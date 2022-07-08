@@ -1,0 +1,30 @@
+.card {
+    height: 350px;
+    border: 2px solid black;
+    width: 255px;
+    margin-left:30px ;
+}
+h2 {
+    text-align: center;
+}
+p{
+    padding-left: 30px;
+    box-sizing: border-box;
+
+}
+.box {
+    display: flex;
+}
+.le{
+text-align: center;
+    border: 2px solid blue ;
+    padding-left: 30px;
+}
+
+div.ford{
+    background: gold;
+}
+div.brown{
+    background: silver;
+}
+
