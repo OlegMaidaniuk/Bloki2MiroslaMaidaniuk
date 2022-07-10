@@ -1,30 +1,54 @@
-.card {
-    height: 350px;
-    border: 2px solid black;
-    width: 255px;
-    margin-left:30px ;
+html, body {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
-h2 {
-    text-align: center;
+
+h4{
+    color: rgb(254, 184, 121);
+    padding: 0px;
+    font-family: Arial;
 }
 p{
-    padding-left: 30px;
-    box-sizing: border-box;
+    color: rgb(150, 150, 150);
+    font-size: xx-small;
+    font-family: Arial;
+}
+img{
+    padding: 20px 8px 20px 20px;
+}
+.container {
+    width: 680px;
+    height: 430px;
+    background: rgb(8, 188, 212);
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-evenly;*/
+    column-gap: 20px;
+    padding: 25px;
+    justify-content: center;
+}
+
+.colon {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    /*justify-content: space-evenly;*/
+    justify-content: center;
 
 }
-.box {
+
+.miner {
+    width: 300px;
+    height: 88px;
+    background: rgb(254, 254, 254);
+    border-radius: 5px;
     display: flex;
 }
-.le{
-text-align: center;
-    border: 2px solid blue ;
-    padding-left: 30px;
+.miner div h4{
+    margin: 0;
+    padding: 10px 0 0 0;
 }
-
-div.ford{
-    background: gold;
+.miner div p{
+    padding-right: 5px;
 }
-div.brown{
-    background: silver;
-}
-
