@@ -1,18 +1,18 @@
-html, body {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
+/*html, body {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    padding: 20px;*/
+/*}*/
 
 h4{
     color: rgb(254, 184, 121);
-    padding: 0px;
-    font-family: Arial;
+    padding: 0;
+    font-family: Arial sans-serif;
 }
 p{
     color: rgb(150, 150, 150);
     font-size: xx-small;
-    font-family: Arial;
+    font-family: Arial sans-serif;
 }
 img{
     padding: 20px 8px 20px 20px;
@@ -27,6 +27,7 @@ img{
     column-gap: 20px;
     padding: 25px;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .colon {
@@ -52,4 +53,3 @@ img{
 .miner div p{
     padding-right: 5px;
 }
-/*table*/
